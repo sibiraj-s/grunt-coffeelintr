@@ -1,6 +1,8 @@
-# grunt-coffeelintr [![Build Status](https://travis-ci.com/Sibiraj-S/grunt-coffeelintr.svg?branch=master)](https://travis-ci.com/Sibiraj-S/grunt-coffeelintr)
+# grunt-coffeelintr
 
 > A Grunt Plugin for Coffeelint
+
+[![NPM Version](https://img.shields.io/npm/v/grunt-coffeelintr.svg)](https://www.npmjs.com/package/grunt-coffeelintr) [![Build Status](https://travis-ci.com/Sibiraj-S/grunt-coffeelintr.svg?branch=master)](https://travis-ci.com/Sibiraj-S/grunt-coffeelintr) [![License](https://img.shields.io/npm/l/grunt-coffeelintr.svg)](https://github.com/Sibiraj-S/grunt-coffeelintr/blob/master/LICENSE)
 
 ## Getting Started
 
