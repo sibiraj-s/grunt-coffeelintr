@@ -1,0 +1,38 @@
+{
+  "name": "grunt-coffeelintr",
+  "description": "A Grunt Plugin for Coffeelint",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Sibiraj-S",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sibiraj-S/grunt-coffeelintr.git"
+  },
+  "homepage": "https://github.com/Sibiraj-S/grunt-coffeelintr",
+  "bugs": {
+    "url": "https://github.com/Sibiraj-S/grunt-coffeelintr/issues"
+  },
+  "engines": {
+    "node": ">= 7.0.0"
+  },
+  "scripts": {
+    "prerelease": "sh ./scripts/prerelease.sh",
+    "release": "sh ./scripts/release.sh",
+    "test": "grunt"
+  },
+  "keywords": [
+    "gruntplugin",
+    "coffeelint",
+    "grunt-coffeelintr"
+  ],
+  "peerDependencies": {
+    "grunt": ">= 1.0.0"
+  },
+  "dependencies": {
+    "coffeelint": "^2.1.0",
+    "coffeelint-stylish": "^0.1.2"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.3"
+  }
+}
