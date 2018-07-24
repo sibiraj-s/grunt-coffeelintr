@@ -1,4 +1,4 @@
-# grunt-coffeelintr
+# grunt-coffeelintr [![Build Status](https://travis-ci.com/Sibiraj-S/grunt-coffeelintr.svg?branch=master)](https://travis-ci.com/Sibiraj-S/grunt-coffeelintr)
 
 > A Grunt Plugin for Coffeelint
 
