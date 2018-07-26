@@ -9,10 +9,17 @@ module.exports = (grunt) ->
       options:
         configFile: 'test/coffeelint.json'
       source: ['test/coffee/**/*.coffee']
+    
+    eslint:
+      target: [
+        'tasks/**/*.js',
+        'scripts/**/*.js'
+      ]
 
   grunt.loadTasks 'tasks'
+  grunt.loadNpmTasks 'grunt-eslint'
 
   # Grunt task(s).
-  grunt.registerTask 'default', ['coffeelintr']
+  grunt.registerTask 'default', ['coffeelintr', 'eslint']
 
   return
