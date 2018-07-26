@@ -13,7 +13,7 @@
     "url": "https://github.com/Sibiraj-S/grunt-coffeelintr/issues"
   },
   "engines": {
-    "node": ">= 7.0.0"
+    "node": ">= 8.0.0"
   },
   "scripts": {
     "prerelease": "sh ./scripts/prerelease.sh",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "coffeelint": "^2.1.0",
-    "coffeelint-stylish": "^0.1.2"
+    "coffeelint-reporter": "^1.0.1"
   },
   "devDependencies": {
     "grunt": "~1.0.3"
