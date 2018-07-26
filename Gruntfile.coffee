@@ -5,10 +5,10 @@ module.exports = (grunt) ->
   grunt.initConfig
     pkg: grunt.file.readJSON('package.json')
 
-    coffeelintr: 
+    coffeelintr:
       options:
         configFile: 'test/coffeelint.json'
-      source: ['test/coffee/**/*.coffee']
+      source: ['test/coffee/**/*.coffee', 'Gruntfile.coffee']
     
     eslint:
       target: [
