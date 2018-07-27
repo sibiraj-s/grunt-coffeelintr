@@ -17,6 +17,7 @@
   },
   "scripts": {
     "precommit": "npm run test",
+    "prepublishOnly": "node ./scripts/prepublish.js",
     "prerelease": "sh ./scripts/prerelease.sh",
     "release": "sh ./scripts/release.sh",
     "test": "grunt"
@@ -34,6 +35,7 @@
     "coffeelint-reporter": "^1.0.2"
   },
   "devDependencies": {
+    "chalk": "^2.4.1",
     "grunt": "~1.0.3",
     "grunt-eslint": "^21.0.0",
     "husky": "^0.14.3"
