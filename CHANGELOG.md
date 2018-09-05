@@ -11,6 +11,12 @@ All notable changes to this project will be documented in this file.
 > - Documentation
 > - Internal
 
+## Unreleased
+
+#### Dependency Updates
+
+* update eslint to v5.5.0 ([6dadce2](https://github.com/Sibiraj-S/grunt-coffeelintr/commit/6dadce2))
+
 ## v1.1.1 (2018-08-29)
 
 #### Dependency Updates
