@@ -11,11 +11,19 @@ All notable changes to this project will be documented in this file.
 > - Documentation
 > - Internal
 
-## Unreleased
+## v1.1.2 (2018-10-05)
 
 #### Dependency Updates
 
-* update eslint to v5.5.0 ([6dadce2](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6dadce2))
+* update coffeelint-reporter to v1.0.5 ([d76e859](https://github.com/sibiraj-s/grunt-coffeelintr/commit/d76e859))
+* update eslint to v5.6.1 ([d76e859](https://github.com/sibiraj-s/grunt-coffeelintr/commit/d76e859))
+* update eslint-plugin-promise to v4.0.1 ([d76e859](https://github.com/sibiraj-s/grunt-coffeelintr/commit/d76e859))
+* update husky to v1.1.0 ([d76e859](https://github.com/sibiraj-s/grunt-coffeelintr/commit/d76e859))
+
+#### Internal
+
+* remove vscode settings in favour of editorconfig ([e11a324](https://github.com/sibiraj-s/grunt-coffeelintr/commit/e11a324))
+* update github username ([45935da](https://github.com/sibiraj-s/grunt-coffeelintr/commit/45935da))
 
 ## v1.1.1 (2018-08-29)
 
