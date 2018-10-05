@@ -3,15 +3,15 @@
   "description": "A Grunt Plugin for Coffeelint",
   "version": "1.1.1",
   "license": "MIT",
-  "author": "Sibiraj-S",
+  "author": "sibiraj-s",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Sibiraj-S/grunt-coffeelintr.git"
+    "url": "git+ssh://git@github.com/sibiraj-s/grunt-coffeelintr.git"
   },
-  "homepage": "https://github.com/Sibiraj-S/grunt-coffeelintr",
+  "homepage": "https://github.com/sibiraj-s/grunt-coffeelintr",
   "bugs": {
-    "url": "https://github.com/Sibiraj-S/grunt-coffeelintr/issues"
+    "url": "https://github.com/sibiraj-s/grunt-coffeelintr/issues"
   },
   "engines": {
     "node": ">= 8.0.0"
