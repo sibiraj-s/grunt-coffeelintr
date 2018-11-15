@@ -5,14 +5,9 @@
   "license": "MIT",
   "author": "sibiraj-s",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/sibiraj-s/grunt-coffeelintr.git"
-  },
+  "repository": "https://github.com/sibiraj-s/grunt-coffeelintr.git",
   "homepage": "https://github.com/sibiraj-s/grunt-coffeelintr",
-  "bugs": {
-    "url": "https://github.com/sibiraj-s/grunt-coffeelintr/issues"
-  },
+  "bugs": "https://github.com/sibiraj-s/grunt-coffeelintr/issues",
   "engines": {
     "node": "^10"
   },
