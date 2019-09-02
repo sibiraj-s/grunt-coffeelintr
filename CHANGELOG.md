@@ -11,6 +11,26 @@ All notable changes to this project will be documented in this file.
 > - Documentation
 > - Internal
 
+## v1.1.3 (2019-09-02)
+
+#### Dependency Updates
+
+- update coffeelint-reporter to v1.0.6 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update chalk to v2.4.2 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update eslint to v6.3.0 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update eslint-config-standard to v14.1.0 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update eslint-plugin-import to v2.18.2 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update eslint-plugin-node to v9.2.0 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update eslint-plugin-promise to v4.2.1 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update eslint-plugin-standard to v4.0.1 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update grunt to v1.0.4 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update grunt-eslint to v22.0.0 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+- update husky to v1.1.0 ([6a5fc9c](https://github.com/sibiraj-s/grunt-coffeelintr/commit/6a5fc9c))
+
+#### Internal
+
+- update LICENSE ([8b3d4a9](https://github.com/sibiraj-s/grunt-coffeelintr/commit/8b3d4a9))
+
 ## v1.1.2 (2018-10-05)
 
 #### Dependency Updates
