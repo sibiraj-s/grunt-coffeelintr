@@ -15,7 +15,7 @@ module.exports = function (grunt) {
       grunt.log.error('File Not Found\n');
     }
 
-    if (options.hasOwnProperty('configFile') && !grunt.file.exists(options.configFile)) {
+    if (Object.prototype.hasOwnProperty.call(options, 'configFile') && !grunt.file.exists(options.configFile)) {
       grunt.log.error('Error Reading Configuration File: `' + options.configFile + '` not found.');
       return false;
     }
