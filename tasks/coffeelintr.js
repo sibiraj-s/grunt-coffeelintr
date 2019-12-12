@@ -1,7 +1,5 @@
-'use strict';
-
 const coffeelint = require('coffeelint');
-const reporter = require('coffeelint-reporter').reporter;
+const reporter = require('coffeelint-reporter/reporter');
 
 module.exports = function (grunt) {
   grunt.registerMultiTask('coffeelintr', 'A Grunt Plugin to lint Cofeescrript', function () {
