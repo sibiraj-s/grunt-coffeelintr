@@ -1,0 +1,10 @@
+extends:
+  - standard
+
+rules:
+  semi:
+    - error
+    - always
+  operator-linebreak:
+    - error
+    - before
