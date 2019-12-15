@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "coffeelint": "^2.1.0",
-    "coffeelint-reporter": "^2.0.0"
+    "coffeelint-reporter": "^2.0.1"
   },
   "devDependencies": {
     "chalk": "^3.0.0",
