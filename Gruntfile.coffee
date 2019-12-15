@@ -7,8 +7,8 @@ module.exports = (grunt) ->
 
     coffeelintr:
       options:
-        configFile: 'test/coffeelint.json'
-      source: ['test/coffee/**/*.coffee', 'Gruntfile.coffee']
+        configFile: 'test/fixtures/coffeelint.json'
+      source: ['test/fixtures/coffee/**/*.coffee', 'Gruntfile.coffee']
     
     eslint:
       target: [
