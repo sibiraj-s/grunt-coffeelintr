@@ -30,5 +30,5 @@ jobs:
       - name: NPM Install
         run: npm ci
 
-      - name: Run Jest Tests
+      - name: Run Tests
         run: npm run test --if-present
