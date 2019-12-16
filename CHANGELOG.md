@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 
 > **Tags**
+>
 > - Features
 > - Bug Fixes
 > - Performance Improvements
@@ -10,6 +11,18 @@ All notable changes to this project will be documented in this file.
 > - Breaking Changes
 > - Documentation
 > - Internal
+
+## v1.1.4 (2019-12-16)
+
+#### Dependency Updates
+
+- update coffeelint-reporter to v2.0.1 ([08df5b7](https://github.com/sibiraj-s/grunt-coffeelintr/commit/08df5b7))
+- bump devDependencies ([2e969de](https://github.com/sibiraj-s/grunt-coffeelintr/commit/2e969de))
+
+#### Internal
+
+- migrate to github actions from travis-ci ([c9314d7](https://github.com/sibiraj-s/grunt-coffeelintr/commit/c9314d7))
+- add jest unit tests ([eb91bd4](https://github.com/sibiraj-s/grunt-coffeelintr/commit/eb91bd4))
 
 ## v1.1.3 (2019-09-02)
 
