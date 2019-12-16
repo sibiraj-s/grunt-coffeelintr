@@ -33,7 +33,9 @@ module.exports = function (grunt) {
       });
     });
 
-    if (errorCount && !options.force) return false;
+    if (errorCount && !options.force) {
+      return false;
+    }
 
     if (!warningCount && !errorCount) {
       grunt.log.ok(files.length + ' file' + (files.length === 1 ? '' : 's') + ' lint free.');

@@ -15,7 +15,8 @@
     "prepublishOnly": "node ./scripts/prepublish.js",
     "prerelease": "sh ./scripts/prerelease.sh",
     "release": "sh ./scripts/release.sh",
-    "test": "grunt"
+    "jest": "jest",
+    "test": "npm run jest && grunt"
   },
   "keywords": [
     "gruntplugin",
@@ -30,15 +31,19 @@
     "coffeelint-reporter": "^2.0.1"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.23",
     "chalk": "^3.0.0",
     "eslint": "^6.7.2",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.1.1",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "grunt": "~1.0.4",
+    "grunt-contrib-nodeunit": "^2.0.0",
     "husky": "^3.1.0",
+    "jest": "^24.9.0",
     "lint-staged": "^9.5.0"
   }
 }

@@ -1,6 +1,9 @@
 extends:
   - standard
 
+plugins:
+  - jest
+
 rules:
   semi:
     - error
@@ -8,3 +11,6 @@ rules:
   operator-linebreak:
     - error
     - before
+
+env:
+  jest/globals: true
