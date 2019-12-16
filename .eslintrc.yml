@@ -11,6 +11,10 @@ rules:
   operator-linebreak:
     - error
     - before
+  max-len:
+    - error
+    - code: 120
+   
 
 env:
   jest/globals: true
