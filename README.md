@@ -8,6 +8,8 @@
 [![License](https://img.shields.io/npm/l/grunt-coffeelintr.svg)](https://github.com/sibiraj-s/grunt-coffeelintr/blob/master/LICENSE)
 [![Tests](https://github.com/sibiraj-s/grunt-coffeelintr/workflows/Tests/badge.svg)](https://github.com/sibiraj-s/grunt-coffeelintr/actions)
 
+![Sample](assets/report.png)
+
 ## Getting Started
 
 This plugin requires Grunt `>= 1.0.0` and Node.js `>= 10`
