@@ -1,4 +1,4 @@
-const coffeelint = require('coffeelint');
+const coffeelint = require('@coffeelint/cli');
 const reporter = require('coffeelint-reporter/reporter');
 
 module.exports = function (grunt) {

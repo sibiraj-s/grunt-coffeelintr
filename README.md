@@ -2,7 +2,7 @@
 
 > A Grunt Plugin for Coffeelint
 
-[CoffeeLint](http://www.coffeelint.org/) is a style checker that helps keep CoffeeScript code clean and consistent.
+[CoffeeLint](https://coffeelint.github.io/) is a style checker that helps keep CoffeeScript code clean and consistent.
 
 [![NPM Version](https://img.shields.io/npm/v/grunt-coffeelintr.svg)](https://www.npmjs.com/package/grunt-coffeelintr)
 [![License](https://img.shields.io/npm/l/grunt-coffeelintr.svg)](https://github.com/sibiraj-s/grunt-coffeelintr/blob/master/LICENSE)
@@ -48,4 +48,4 @@ grunt.initConfig({
 });
 ```
 
-To override any of CoffeeLint's default options, generate a [configuration](http://www.coffeelint.org/#usage) file and tweak it as needed, and specify that file as shown above.
+To override any of CoffeeLint's default options, generate a [configuration](https://coffeelint.github.io/#usage) file and tweak it as needed, and specify that file as shown above.
