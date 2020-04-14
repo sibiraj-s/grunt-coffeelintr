@@ -12,6 +12,14 @@ All notable changes to this project will be documented in this file.
 > - Documentation
 > - Internal
 
+## v1.1.5 (2020-04-14)
+
+#### Dependency Updates
+
+- regenerate package-lock.json ([e9cddbc](https://github.com/sibiraj-s/grunt-coffeelintr/commit/e9cddbc))
+- use `@coffeelint/cli` instead of `coffeelint` ([cc5b260](https://github.com/sibiraj-s/grunt-coffeelintr/commit/cc5b260))
+- bump devDependencies ([38bf6cb](https://github.com/sibiraj-s/grunt-coffeelintr/commit/38bf6cb))
+
 ## v1.1.4 (2019-12-16)
 
 #### Dependency Updates
