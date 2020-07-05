@@ -1,20 +1,9 @@
 extends:
   - standard
+  - pegasus
 
 plugins:
   - jest
-
-rules:
-  semi:
-    - error
-    - always
-  operator-linebreak:
-    - error
-    - before
-  max-len:
-    - error
-    - code: 120
-   
 
 env:
   jest/globals: true

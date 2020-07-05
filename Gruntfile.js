@@ -2,10 +2,10 @@ module.exports = function (grunt) {
   grunt.initConfig({
     coffeelintr: {
       options: {
-        configFile: 'test/fixtures/coffeelint.json'
+        configFile: 'test/fixtures/coffeelint.json',
       },
-      source: ['test/fixtures/**/*.coffee']
-    }
+      source: ['test/fixtures/**/*.coffee'],
+    },
   });
 
   grunt.loadTasks('tasks');
