@@ -10,7 +10,14 @@ All notable changes to this project will be documented in this file.
 > - Dependency Updates
 > - Breaking Changes
 > - Documentation
+> - Security
 > - Internal
+
+## v1.1.6 (2020-07-19)
+
+#### Security
+
+- fix vulnerabilities ([dc605e6](https://github.com/sibiraj-s/grunt-coffeelintr/commit/dc605e6))
 
 ## v1.1.5 (2020-04-14)
 

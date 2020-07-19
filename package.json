@@ -1,7 +1,7 @@
 {
   "name": "grunt-coffeelintr",
   "description": "A Grunt Plugin for Coffeelint",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "license": "MIT",
   "author": "sibiraj-s",
   "repository": "https://github.com/sibiraj-s/grunt-coffeelintr.git",
