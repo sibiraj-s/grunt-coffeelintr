@@ -1,6 +1,6 @@
 extends:
-  - standard
   - pegasus
+  - pegasus/node
 
 plugins:
   - jest
