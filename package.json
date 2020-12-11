@@ -15,7 +15,7 @@
     "tasks"
   ],
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --ignore-path .gitignore",
     "jest": "jest",
     "test": "npm run jest && grunt"
   },
