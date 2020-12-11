@@ -13,6 +13,12 @@ All notable changes to this project will be documented in this file.
 > - Security
 > - Internal
 
+## v2.0.0 (2020-12-11)
+
+#### Dependency Updates
+
+- update `@coffeelint/cli` to `v4.1.2` ([47f47a1](https://github.com/sibiraj-s/grunt-coffeelintr/commit/47f47a1))
+
 ## v1.1.6 (2020-07-19)
 
 #### Security
