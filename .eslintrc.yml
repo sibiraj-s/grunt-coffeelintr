@@ -5,5 +5,9 @@ extends:
 plugins:
   - jest
 
+rules:
+  func-names: off
+  no-invalid-this: off
+
 env:
   jest/globals: true

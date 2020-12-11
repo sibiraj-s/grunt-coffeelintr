@@ -14,7 +14,7 @@ module.exports = function (grunt) {
     }
 
     if (Object.prototype.hasOwnProperty.call(options, 'configFile') && !grunt.file.exists(options.configFile)) {
-      grunt.log.error('Error Reading Configuration File: `' + options.configFile + '` not found.');
+      grunt.log.error(`Error Reading Configuration File: \`${options.configFile}\` not found.`);
       return false;
     }
 
@@ -22,14 +22,17 @@ module.exports = function (grunt) {
       coffeelintOptions = grunt.file.readJSON(options.configFile);
     }
 
-    files.forEach(function (fileName) {
+    files.forEach((fileName) => {
       const lintResults = coffeelint.lint(grunt.file.read(fileName), coffeelintOptions);
 
       reporter(fileName, lintResults);
 
-      lintResults.forEach(function (error) {
-        if (error.level === 'error') errorCount += 1;
-        else if (error.level === 'warn') warningCount += 1;
+      lintResults.forEach((error) => {
+        if (error.level === 'error') {
+          errorCount += 1;
+        } else if (error.level === 'warn') {
+          warningCount += 1;
+        }
       });
     });
 
@@ -38,7 +41,9 @@ module.exports = function (grunt) {
     }
 
     if (!warningCount && !errorCount) {
-      grunt.log.ok(files.length + ' file' + (files.length === 1 ? '' : 's') + ' lint free.');
+      grunt.log.ok(`${files.length} file${files.length === 1 ? '' : 's'} lint free.`);
     }
+
+    return true;
   });
 };
