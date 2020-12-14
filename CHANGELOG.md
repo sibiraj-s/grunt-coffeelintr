@@ -13,6 +13,12 @@ All notable changes to this project will be documented in this file.
 > - Security
 > - Internal
 
+## v2.0.1 (2020-12-14)
+
+#### Internal
+
+- update LICENSE ([29e8355](https://github.com/sibiraj-s/grunt-coffeelintr/commit/29e8355))
+
 ## v2.0.0 (2020-12-11)
 
 #### Dependency Updates
