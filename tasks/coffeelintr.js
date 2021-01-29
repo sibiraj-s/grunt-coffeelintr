@@ -1,7 +1,7 @@
 const coffeelint = require('@coffeelint/cli');
 const reporter = require('coffeelint-reporter/reporter');
 
-module.exports = function (grunt) {
+module.exports = (grunt) => {
   grunt.registerMultiTask('coffeelintr', 'A Grunt Plugin to lint Cofeescrript', function () {
     const files = this.filesSrc;
     const options = this.options();
