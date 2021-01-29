@@ -3,7 +3,7 @@
 > A Grunt Plugin for Coffeelint
 
 <p align="center">
-  <img width="200" height="200" src="assets/grunt.svg" alt="Grunt">
+  <img width="180" height="180" src="assets/grunt.svg" alt="Grunt">
 </p>
 
 [CoffeeLint](https://coffeelint.github.io/) is a style checker that helps keep CoffeeScript code clean and consistent.
