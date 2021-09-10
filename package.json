@@ -29,7 +29,7 @@
     "grunt": ">=1.0.0"
   },
   "dependencies": {
-    "@coffeelint/cli": "^5.0.1",
+    "@coffeelint/cli": "^5.0.2",
     "coffeelint-reporter": "^2.0.3"
   },
   "devDependencies": {
