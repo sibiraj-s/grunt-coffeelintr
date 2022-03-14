@@ -13,6 +13,12 @@ All notable changes to this project will be documented in this file.
 > - Security
 > - Internal
 
+## v2.1.0 (2022-03-14)
+
+#### Dependency Updates
+
+- update `coffeelint-reporter` to v3 ([b008df6](https://github.com/sibiraj-s/grunt-coffeelintr/commit/b008df6))
+
 ## v2.0.1 (2020-12-14)
 
 #### Internal
