@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@coffeelint/cli": "^5.0.5",
-    "coffeelint-reporter": "^2.0.3"
+    "coffeelint-reporter": "^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
