@@ -15,7 +15,7 @@
     "tasks"
   ],
   "scripts": {
-    "lint": "eslint . --ignore-path .gitignore",
+    "lint": "oxlint . --ignore-path .gitignore",
     "jest": "jest",
     "test": "npm run jest && grunt",
     "prepare": "is-ci || husky install"
@@ -36,14 +36,12 @@
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@types/jest": "^29.5.14",
-    "eslint": "^8.57.1",
-    "eslint-config-pegasus": "^3.5.0",
-    "eslint-plugin-jest": "^27.9.0",
     "grunt": "~1.6.1",
     "husky": "^9.1.7",
     "is-ci": "^4.1.0",
     "jest": "^30.0.0",
     "lint-staged": "^16.1.0",
+    "oxlint": "^1.1.0",
     "publint": "^0.3.12"
   }
 }
