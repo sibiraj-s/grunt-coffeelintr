@@ -190,4 +190,7 @@ module.exports = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
+
+  // Insert Jest's globals (expect, test, describe, beforeEach etc.) into the global environment.
+  injectGlobals: false,
 };

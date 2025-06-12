@@ -1,4 +1,5 @@
 const grunt = require('grunt');
+const { expect, beforeAll, it } = require('@jest/globals');
 
 const config = require('../Gruntfile');
 
