@@ -18,7 +18,7 @@
     "lint": "oxlint . --ignore-path .gitignore",
     "jest": "jest",
     "test": "npm run jest && grunt",
-    "prepare": "is-ci || husky install"
+    "prepare": "is-ci || husky"
   },
   "keywords": [
     "gruntplugin",
@@ -33,15 +33,15 @@
     "coffeelint-reporter": "^3.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.5.0",
-    "@commitlint/config-conventional": "^20.5.0",
-    "@jest/globals": "^30.3.0",
-    "grunt": "~1.6.1",
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@jest/globals": "^30.5.2",
+    "grunt": "~1.6.3",
     "husky": "^9.1.7",
     "is-ci": "^4.1.0",
-    "jest": "^30.3.0",
-    "lint-staged": "^16.4.0",
-    "oxlint": "^1.59.0",
-    "publint": "^0.3.18"
+    "jest": "^30.5.2",
+    "lint-staged": "^17.6.0",
+    "oxlint": "^1.86.0",
+    "publint": "^0.3.25"
   }
 }
