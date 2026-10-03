@@ -34,4 +34,4 @@ jobs:
       - name: Run Tests
         run: npm run test
 
-      - run: npm publish
+      - run: npm stage publish
